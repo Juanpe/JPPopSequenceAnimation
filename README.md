@@ -1,7 +1,7 @@
 JPPopSequenceAnimation
 ======================
 
-Runs POP Animations sequentially, one after another. 
+Runs [POP](https://github.com/facebook/pop) Animations sequentially, one after another. 
 
 ## Installation
 
