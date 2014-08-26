@@ -30,7 +30,7 @@ Drag and drop `JPPopSequenceAnimationClasses` folder into your project. Add `#im
 
 ## Parameters
 
-You can easily set the number of repetitions of sequence and set begin index:
+You can easily set the number of repetitions of sequence and set start index:
 
 ```objective-c
 @property (nonatomic) NSInteger beginIndex;
@@ -69,22 +69,22 @@ animationDidStart:(POPAnimation *) anim
 
 ```objective-c
 
-        POPBasicAnimation *anim = [POPBasicAnimation animationWithPropertyNamed:kPOPViewAlpha];
-        anim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-        anim.fromValue = @(1.0);
-        anim.toValue = @(0.0);
-        anim.name = @"fadeOut";
-        
-        POPBasicAnimation *anim1 = [POPBasicAnimation animationWithPropertyNamed:kPOPViewAlpha];
-        anim1.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-        anim1.fromValue = @(0.0);
-        anim1.toValue = @(1.0);
-        anim.name = @"fadeIn";
-        
-        JPPopSequenceAnimation * sequenceAnimation = [[JPPopSequenceAnimation alloc] initWithAnimations:@[anim, anim1]];
+POPBasicAnimation *anim = [POPBasicAnimation animationWithPropertyNamed:kPOPViewAlpha];
+anim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+anim.fromValue = @(1.0);
+anim.toValue = @(0.0);
+anim.name = @"fadeOut";
 
-        sequenceAnimation.delegate = self;
+POPBasicAnimation *anim1 = [POPBasicAnimation animationWithPropertyNamed:kPOPViewAlpha];
+anim1.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+anim1.fromValue = @(0.0);
+anim1.toValue = @(1.0);
+anim.name = @"fadeIn";
 
-        [self.squareView addSequenceAnimation:sequenceAnimation
-                                       forKey:@"sequence_1"];
+JPPopSequenceAnimation * sequenceAnimation = [[JPPopSequenceAnimation alloc] initWithAnimations:@[anim, anim1]];
+
+sequenceAnimation.delegate = self;
+
+[self.squareView addSequenceAnimation:sequenceAnimation
+                               forKey:@"sequence_1"];
 ```
