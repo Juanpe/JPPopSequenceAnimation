@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044C03FA19ACFD1B005F5B38 /* JPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044C03F819ACFD1B005F5B38 /* JPViewController.m */; };
+		044C03FB19ACFD1B005F5B38 /* JPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044C03F919ACFD1B005F5B38 /* JPViewController.xib */; };
+		044C03FE19ACFFFB005F5B38 /* JPPopSequenceCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 044C03FD19ACFFFB005F5B38 /* JPPopSequenceCoordinator.m */; };
+		04EE3CA319A4C8A200BDCAFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE3CA219A4C8A200BDCAFF /* Foundation.framework */; };
+		04EE3CA519A4C8A200BDCAFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE3CA419A4C8A200BDCAFF /* CoreGraphics.framework */; };
+		04EE3CA719A4C8A200BDCAFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE3CA619A4C8A200BDCAFF /* UIKit.framework */; };
+		04EE3CAD19A4C8A300BDCAFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EE3CAB19A4C8A300BDCAFF /* InfoPlist.strings */; };
+		04EE3CAF19A4C8A300BDCAFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE3CAE19A4C8A300BDCAFF /* main.m */; };
+		04EE3CB319A4C8A300BDCAFF /* JPPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE3CB219A4C8A300BDCAFF /* JPPAppDelegate.m */; };
+		04EE3CB519A4C8A300BDCAFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EE3CB419A4C8A300BDCAFF /* Images.xcassets */; };
+		04EE3CBC19A4C8A300BDCAFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE3CBB19A4C8A300BDCAFF /* XCTest.framework */; };
+		04EE3CBD19A4C8A300BDCAFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE3CA219A4C8A200BDCAFF /* Foundation.framework */; };
+		04EE3CBE19A4C8A300BDCAFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE3CA619A4C8A200BDCAFF /* UIKit.framework */; };
+		04EE3CC619A4C8A300BDCAFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EE3CC419A4C8A300BDCAFF /* InfoPlist.strings */; };
+		04EE3CC819A4C8A300BDCAFF /* JPPopSequenceAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE3CC719A4C8A300BDCAFF /* JPPopSequenceAnimationTests.m */; };
+		04EE3CD419A4CA1200BDCAFF /* JPPopSequenceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE3CD319A4CA1200BDCAFF /* JPPopSequenceAnimation.m */; };
+		881427D79C034A888DD2EEA8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA0F28FDC3241BEAC50B35F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EE3CBF19A4C8A300BDCAFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EE3C9719A4C8A200BDCAFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EE3C9E19A4C8A200BDCAFF;
+			remoteInfo = JPPopSequenceAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044C03F719ACFD1B005F5B38 /* JPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPViewController.h; sourceTree = "<group>"; };
+		044C03F819ACFD1B005F5B38 /* JPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPViewController.m; sourceTree = "<group>"; };
+		044C03F919ACFD1B005F5B38 /* JPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JPViewController.xib; sourceTree = "<group>"; };
+		044C03FC19ACFFFB005F5B38 /* JPPopSequenceCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPPopSequenceCoordinator.h; sourceTree = "<group>"; };
+		044C03FD19ACFFFB005F5B38 /* JPPopSequenceCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPPopSequenceCoordinator.m; sourceTree = "<group>"; };
+		04EE3C9F19A4C8A200BDCAFF /* JPPopSequenceAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPPopSequenceAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EE3CA219A4C8A200BDCAFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04EE3CA419A4C8A200BDCAFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04EE3CA619A4C8A200BDCAFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04EE3CAA19A4C8A300BDCAFF /* JPPopSequenceAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JPPopSequenceAnimation-Info.plist"; sourceTree = "<group>"; };
+		04EE3CAC19A4C8A300BDCAFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EE3CAE19A4C8A300BDCAFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EE3CB019A4C8A300BDCAFF /* JPPopSequenceAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JPPopSequenceAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		04EE3CB119A4C8A300BDCAFF /* JPPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPPAppDelegate.h; sourceTree = "<group>"; };
+		04EE3CB219A4C8A300BDCAFF /* JPPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPPAppDelegate.m; sourceTree = "<group>"; };
+		04EE3CB419A4C8A300BDCAFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04EE3CBA19A4C8A300BDCAFF /* JPPopSequenceAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPPopSequenceAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EE3CBB19A4C8A300BDCAFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04EE3CC319A4C8A300BDCAFF /* JPPopSequenceAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JPPopSequenceAnimationTests-Info.plist"; sourceTree = "<group>"; };
+		04EE3CC519A4C8A300BDCAFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EE3CC719A4C8A300BDCAFF /* JPPopSequenceAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPPopSequenceAnimationTests.m; sourceTree = "<group>"; };
+		04EE3CD219A4CA1200BDCAFF /* JPPopSequenceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPPopSequenceAnimation.h; sourceTree = "<group>"; };
+		04EE3CD319A4CA1200BDCAFF /* JPPopSequenceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPPopSequenceAnimation.m; sourceTree = "<group>"; };
+		1FA0F28FDC3241BEAC50B35F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F00F28BC31C417F8F8F98CD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EE3C9C19A4C8A200BDCAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE3CA519A4C8A200BDCAFF /* CoreGraphics.framework in Frameworks */,
+				04EE3CA719A4C8A200BDCAFF /* UIKit.framework in Frameworks */,
+				04EE3CA319A4C8A200BDCAFF /* Foundation.framework in Frameworks */,
+				881427D79C034A888DD2EEA8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EE3CB719A4C8A300BDCAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE3CBC19A4C8A300BDCAFF /* XCTest.framework in Frameworks */,
+				04EE3CBE19A4C8A300BDCAFF /* UIKit.framework in Frameworks */,
+				04EE3CBD19A4C8A300BDCAFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EE3C9619A4C8A200BDCAFF = {
+			isa = PBXGroup;
+			children = (
+				04EE3CA819A4C8A200BDCAFF /* JPPopSequenceAnimation */,
+				04EE3CC119A4C8A300BDCAFF /* JPPopSequenceAnimationTests */,
+				04EE3CA119A4C8A200BDCAFF /* Frameworks */,
+				04EE3CA019A4C8A200BDCAFF /* Products */,
+				3F00F28BC31C417F8F8F98CD /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		04EE3CA019A4C8A200BDCAFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EE3C9F19A4C8A200BDCAFF /* JPPopSequenceAnimation.app */,
+				04EE3CBA19A4C8A300BDCAFF /* JPPopSequenceAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EE3CA119A4C8A200BDCAFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EE3CA219A4C8A200BDCAFF /* Foundation.framework */,
+				04EE3CA419A4C8A200BDCAFF /* CoreGraphics.framework */,
+				04EE3CA619A4C8A200BDCAFF /* UIKit.framework */,
+				04EE3CBB19A4C8A300BDCAFF /* XCTest.framework */,
+				1FA0F28FDC3241BEAC50B35F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04EE3CA819A4C8A200BDCAFF /* JPPopSequenceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				04EE3CD119A4C9DB00BDCAFF /* JPPopSequenceAnimationClasses */,
+				04EE3CB119A4C8A300BDCAFF /* JPPAppDelegate.h */,
+				04EE3CB219A4C8A300BDCAFF /* JPPAppDelegate.m */,
+				04EE3CB419A4C8A300BDCAFF /* Images.xcassets */,
+				04EE3CA919A4C8A200BDCAFF /* Supporting Files */,
+				044C03F719ACFD1B005F5B38 /* JPViewController.h */,
+				044C03F819ACFD1B005F5B38 /* JPViewController.m */,
+				044C03F919ACFD1B005F5B38 /* JPViewController.xib */,
+			);
+			path = JPPopSequenceAnimation;
+			sourceTree = "<group>";
+		};
+		04EE3CA919A4C8A200BDCAFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EE3CAA19A4C8A300BDCAFF /* JPPopSequenceAnimation-Info.plist */,
+				04EE3CAB19A4C8A300BDCAFF /* InfoPlist.strings */,
+				04EE3CAE19A4C8A300BDCAFF /* main.m */,
+				04EE3CB019A4C8A300BDCAFF /* JPPopSequenceAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EE3CC119A4C8A300BDCAFF /* JPPopSequenceAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EE3CC719A4C8A300BDCAFF /* JPPopSequenceAnimationTests.m */,
+				04EE3CC219A4C8A300BDCAFF /* Supporting Files */,
+			);
+			path = JPPopSequenceAnimationTests;
+			sourceTree = "<group>";
+		};
+		04EE3CC219A4C8A300BDCAFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EE3CC319A4C8A300BDCAFF /* JPPopSequenceAnimationTests-Info.plist */,
+				04EE3CC419A4C8A300BDCAFF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EE3CD119A4C9DB00BDCAFF /* JPPopSequenceAnimationClasses */ = {
+			isa = PBXGroup;
+			children = (
+				04EE3CD219A4CA1200BDCAFF /* JPPopSequenceAnimation.h */,
+				04EE3CD319A4CA1200BDCAFF /* JPPopSequenceAnimation.m */,
+				044C03FC19ACFFFB005F5B38 /* JPPopSequenceCoordinator.h */,
+				044C03FD19ACFFFB005F5B38 /* JPPopSequenceCoordinator.m */,
+			);
+			path = JPPopSequenceAnimationClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EE3C9E19A4C8A200BDCAFF /* JPPopSequenceAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EE3CCB19A4C8A300BDCAFF /* Build configuration list for PBXNativeTarget "JPPopSequenceAnimation" */;
+			buildPhases = (
+				295CFDB222A8433D9CA5F0A1 /* Check Pods Manifest.lock */,
+				04EE3C9B19A4C8A200BDCAFF /* Sources */,
+				04EE3C9C19A4C8A200BDCAFF /* Frameworks */,
+				04EE3C9D19A4C8A200BDCAFF /* Resources */,
+				094D070053864197A7E76115 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPPopSequenceAnimation;
+			productName = JPPopSequenceAnimation;
+			productReference = 04EE3C9F19A4C8A200BDCAFF /* JPPopSequenceAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EE3CB919A4C8A300BDCAFF /* JPPopSequenceAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EE3CCE19A4C8A300BDCAFF /* Build configuration list for PBXNativeTarget "JPPopSequenceAnimationTests" */;
+			buildPhases = (
+				04EE3CB619A4C8A300BDCAFF /* Sources */,
+				04EE3CB719A4C8A300BDCAFF /* Frameworks */,
+				04EE3CB819A4C8A300BDCAFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EE3CC019A4C8A300BDCAFF /* PBXTargetDependency */,
+			);
+			name = JPPopSequenceAnimationTests;
+			productName = JPPopSequenceAnimationTests;
+			productReference = 04EE3CBA19A4C8A300BDCAFF /* JPPopSequenceAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EE3C9719A4C8A200BDCAFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JPP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Juanpe Catalán";
+				TargetAttributes = {
+					04EE3CB919A4C8A300BDCAFF = {
+						TestTargetID = 04EE3C9E19A4C8A200BDCAFF;
+					};
+				};
+			};
+			buildConfigurationList = 04EE3C9A19A4C8A200BDCAFF /* Build configuration list for PBXProject "JPPopSequenceAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04EE3C9619A4C8A200BDCAFF;
+			productRefGroup = 04EE3CA019A4C8A200BDCAFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EE3C9E19A4C8A200BDCAFF /* JPPopSequenceAnimation */,
+				04EE3CB919A4C8A300BDCAFF /* JPPopSequenceAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EE3C9D19A4C8A200BDCAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE3CAD19A4C8A300BDCAFF /* InfoPlist.strings in Resources */,
+				04EE3CB519A4C8A300BDCAFF /* Images.xcassets in Resources */,
+				044C03FB19ACFD1B005F5B38 /* JPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EE3CB819A4C8A300BDCAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE3CC619A4C8A300BDCAFF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		094D070053864197A7E76115 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		295CFDB222A8433D9CA5F0A1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EE3C9B19A4C8A200BDCAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044C03FE19ACFFFB005F5B38 /* JPPopSequenceCoordinator.m in Sources */,
+				04EE3CAF19A4C8A300BDCAFF /* main.m in Sources */,
+				04EE3CB319A4C8A300BDCAFF /* JPPAppDelegate.m in Sources */,
+				044C03FA19ACFD1B005F5B38 /* JPViewController.m in Sources */,
+				04EE3CD419A4CA1200BDCAFF /* JPPopSequenceAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EE3CB619A4C8A300BDCAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE3CC819A4C8A300BDCAFF /* JPPopSequenceAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EE3CC019A4C8A300BDCAFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EE3C9E19A4C8A200BDCAFF /* JPPopSequenceAnimation */;
+			targetProxy = 04EE3CBF19A4C8A300BDCAFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EE3CAB19A4C8A300BDCAFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EE3CAC19A4C8A300BDCAFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04EE3CC419A4C8A300BDCAFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EE3CC519A4C8A300BDCAFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EE3CC919A4C8A300BDCAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04EE3CCA19A4C8A300BDCAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EE3CCC19A4C8A300BDCAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F00F28BC31C417F8F8F98CD /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPPopSequenceAnimation/JPPopSequenceAnimation-Prefix.pch";
+				INFOPLIST_FILE = "JPPopSequenceAnimation/JPPopSequenceAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04EE3CCD19A4C8A300BDCAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F00F28BC31C417F8F8F98CD /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPPopSequenceAnimation/JPPopSequenceAnimation-Prefix.pch";
+				INFOPLIST_FILE = "JPPopSequenceAnimation/JPPopSequenceAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04EE3CCF19A4C8A300BDCAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JPPopSequenceAnimation.app/JPPopSequenceAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPPopSequenceAnimation/JPPopSequenceAnimation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JPPopSequenceAnimationTests/JPPopSequenceAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04EE3CD019A4C8A300BDCAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JPPopSequenceAnimation.app/JPPopSequenceAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPPopSequenceAnimation/JPPopSequenceAnimation-Prefix.pch";
+				INFOPLIST_FILE = "JPPopSequenceAnimationTests/JPPopSequenceAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EE3C9A19A4C8A200BDCAFF /* Build configuration list for PBXProject "JPPopSequenceAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EE3CC919A4C8A300BDCAFF /* Debug */,
+				04EE3CCA19A4C8A300BDCAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EE3CCB19A4C8A300BDCAFF /* Build configuration list for PBXNativeTarget "JPPopSequenceAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EE3CCC19A4C8A300BDCAFF /* Debug */,
+				04EE3CCD19A4C8A300BDCAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EE3CCE19A4C8A300BDCAFF /* Build configuration list for PBXNativeTarget "JPPopSequenceAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EE3CCF19A4C8A300BDCAFF /* Debug */,
+				04EE3CD019A4C8A300BDCAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EE3C9719A4C8A200BDCAFF /* Project object */;
+}
