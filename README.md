@@ -5,7 +5,7 @@ Runs [POP](https://github.com/facebook/pop) Animations sequentially, one after a
 
 ## Installation
 
-### Cocoapods
+### CocoaPods
 
 Edit Podfile and **add JPPopSequenceAnimation:**
 
